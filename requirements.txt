@@ -1,0 +1,10 @@
+pymongo
+pymupdf
+ipykernel
+dotenv
+langchain
+langchain_community
+langchain_openai
+langchain_groq
+langchain-cohere
+
