@@ -1,17 +1,24 @@
 [project]
 name = "ragmongodb"
-version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
+version = "0.1.0"        # ✅ add version back
 requires-python = ">=3.12"
 dependencies = [
+    "boto3>=1.42.96",
     "dotenv>=0.9.9",
+    "fastapi>=0.136.1",
     "ipykernel>=7.2.0",
     "langchain>=1.2.15",
     "langchain-cohere>=0.5.1",
     "langchain-community>=0.4.1",
     "langchain-groq>=1.1.2",
     "langchain-openai>=1.2.1",
+    "pandas>=3.0.2",
     "pymongo>=4.17.0",
     "pymupdf>=1.27.2.3",
+    "pytest>=9.0.3",
+    "python-multipart>=0.0.26",
+    "pyyaml>=6.0.3",
+    "streamlit>=1.56.0",
+    "structlog>=25.5.0",
+    "uvicorn>=0.46.0",
 ]

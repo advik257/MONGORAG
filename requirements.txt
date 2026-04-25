@@ -7,4 +7,13 @@ langchain_community
 langchain_openai
 langchain_groq
 langchain-cohere
+structlog 
+pytest
+streamlit    
+fastapi   
+uvicorn
+python-multipart
+pyyaml
+pandas
+boto3
 

@@ -1,15 +1,54 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+# Virtual Environment
+.venv/
+venv/
+env/
 
-# Virtual environments
-.venv
-/venv
+# UV
+.uv/
+uv.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Data folder (PDFs, datasets, etc.)
+data/
+
+# Environment Variables (never commit secrets!)
 .env
-/env
-*env
-.env*
+.env.*
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# MongoDB
+*.bson
+*.json.gz
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Streamlit
+.streamlit/secrets.toml
