@@ -22,7 +22,7 @@ data/
 
 # Environment Variables (never commit secrets!)
 .env
-.env
+.env.*
 
 # Jupyter Notebooks checkpoints
 .ipynb_checkpoints/
@@ -52,3 +52,17 @@ htmlcov/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# VS Code (keep mcp.json but ignore sensitive ones)
+.vscode/*
+!.vscode/mcp.json        # ✅ safe to commit (uses env variables)
+!.vscode/settings.json   # ✅ safe to commit
+!.vscode/extensions.json # ✅ safe to commit
+
+# Secrets
+.env
+
+# Data & Logs
+data/
+logs/
